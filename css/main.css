@@ -7,7 +7,7 @@
 }
 @font-face {
     font-family: vazir;
-    src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Light.ttf);
+    src: url(../font/Vazir-Light.ttf);
 }
 .menusymbol{
     cursor: pointer;
