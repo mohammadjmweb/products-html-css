@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: vazir;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: vazir;
+    src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Light.ttf);
+}
+.menusymbol{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.menusymbol:hover{
+    color: darkred;
+}
+header .vorood_search .search{
+    transition: 0.5s;
+}
+header .vorood_search .search input[type="search"]{
+    transition: 0.5s;
+}
+header .vorood_search .search:hover input[type="search"]{
+    background-color: darkred ;
+    color: whitesmoke;
+}
+header .vorood_search .search:hover{
+    background-color: darkred ;
+    color: whitesmoke;
+}
+header .vorood_search{
+    width: 100%;
+    height: 75px;
+    background-color: darkred ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+header .vorood_search .vorood{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: lightcoral;
+    cursor: pointer;
+    transition: 0.5s;
+}
+header .vorood_search .vorood:hover{
+    background-color: darkred;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+header .vorood_search .search{
+    width: 240px;
+    height: 40px;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 5px;
+    color: darkred;
+    background-color: lightcoral;
+}
+header .vorood_search .search input[type="search"]{
+    background-color: lightcoral ;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    padding-right: 15px;
+    color: darkred;
+    font-size: 15px; 
+    outline: none;
+}
+header .menu{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightcoral;
+    padding: 15px;
+}
+header .menu .menu1{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+header .menu .menu1 li{
+    display: flex;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+    transition:0.5s;
+}
+header .menu .menu1 li:hover{
+    color:darkred;
+}
+header .menu .menu1 li span{
+    margin: 0 15px;
+}
+header .menu .mark{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+header .menu .mark li{
+    color: whitesmoke;
+    margin: 0 5px;
+}
+main{
+    display: flex;
+    background-color: whitesmoke;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+main aside h2{
+    text-align: center;
+    color: darkred ;
+    font-size: 18px;
+}
+main aside .kala{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+main aside .kala .laptop{
+    width: 230px;
+    margin: 20px 20px;
+    color: darkred;
+    font-size: 15px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgray, -2px -2px 2px lightgray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main aside .kala .laptop img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+main aside .kala .laptop button{
+    width: 100%;
+    height: 30px;
+    background-color: darkred;
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+main aside .brand{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main aside .brand .brandkala{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 20px;
+    box-shadow: 5px 5px 5px lightgray, -2px -2px 2px lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+main aside .brand .brandkala img{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+main aside .brand .brandkala p{
+    font-size: 15px;
+    color: darkred;
+    text-align: center;
+    margin: 10px 0;
+}
+
+main article h3{
+    color:darkred;
+    font-size: 15px;
+    margin: 20px 30px;
+}
+main article .kharid{
+    color: black;
+    margin-right: 30px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+main article .porforoosh{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+main article .porforoosh .mahsool{
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgray, -2px -2px 2px lightgray;
+    padding: 5px;
+}
+main article .porforoosh .mahsool img{
+    width: 30%;
+    margin: 5px;
+    border-radius: 10px;
+}
+main article .porforoosh .mahsool div h4{
+    color:darkred;
+    font-size: 14px;
+}
+main article .porforoosh .mahsool div a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+footer{
+    width: 100%;
+    background-color: darkred;
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+}
+footer .footermenu{
+    list-style: none;
+    width: 150px;
+    font-size: 14px;
+    color: whitesmoke;
+}
+footer .footermenu hr{
+    margin: 10px 0;
+    height: 3px;
+    background-color: whitesmoke;
+    border: none;
+}
+.brandkala p{
+    cursor: pointer;
+}
+footer .footermenu li{
+    cursor: pointer;
+    transition: 0.5s;
+}
+footer .footermenu li:hover{
+    color: lightcoral;
+}
+.scrolltop{
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: whitesmoke;
+    background-color: lightcoral;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.scrolltop .material-symbols-outlined{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
