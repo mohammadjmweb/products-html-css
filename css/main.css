@@ -277,3 +277,323 @@ footer .footermenu li:hover{
     line-height: 50px;
     font-size: 30px;
 }
+@media only screen and (min-width:1400px){
+    header .menu #menuicon{
+        display: none;
+    }    
+    header .menu .mark #person{
+        display: none;
+    }
+    main aside{
+    width: 80%;
+    } 
+    main article{
+    width: 20%;
+    border-right: 2px solid darkred;
+    }
+}
+@media only screen and (min-width:1330px) and (max-width:1400px){    
+    header .menu #menuicon{
+        display: none;
+    }
+    header .menu .mark #person{
+        display: none;
+    }
+    main aside{
+        width: 75%;
+    } 
+    main article{
+        width: 25%;
+        border-right: 2px solid darkred;
+    }
+}
+@media only screen and (min-width:1150px) and (max-width:1330px){
+    header .menu #menuicon{
+        display: none;
+    }
+    header .menu .mark #person{
+        display: none;
+    }
+    main aside{
+        width: 70%;
+    } 
+    main article{
+        width: 30%;
+        border-right: 2px solid darkred;
+    }
+}
+@media only screen and (min-width:891px) and (max-width:1150px){
+    header .menu #menuicon{
+        display: none;
+    }
+    main aside{
+        width: 100%;
+    }
+    main article{
+        width: 100%;
+        margin-top: 100px;
+    }
+    main article h3{
+        color:darkred;
+        font-size: 15px;
+        text-align: center;
+    }
+    main article .kharid{
+        color: whitesmoke;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    main article .kharid li{
+        width: 150px;
+        height:50px;
+        margin: 10px 10px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 5px;
+    }
+    main article .kharid li:nth-child(1){
+        background-color: red;
+    }
+    main article .kharid li:nth-child(2){
+        background-color: darkblue;
+    }
+    main article .kharid li:nth-child(3){
+        background-color: purple;
+    }
+    main article .kharid li:nth-child(4){
+        background-color: saddlebrown;
+    }
+    main article .kharid li:nth-child(5){
+        background-color: blueviolet;
+    }
+    main article .kharid li:nth-child(6){
+        background-color: darkgreen;
+    }
+    main article .porforoosh{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    main article .porforoosh .mahsool{
+        width: 230px;
+        height: 80px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:890px){    
+    header .menu #menuicon{
+        color: whitesmoke;
+        position : relative ;
+        transition: 0.5s;
+    }
+    header .menu #menuicon:hover{
+        color: darkred;
+    }
+    header .menu #menuicon .menubar{
+        position: absolute;
+        top : 47px;
+        left:40px;
+        transform: translateX(40px);
+        border-radius: 10px;
+        width: 200px;
+        color: black;
+        list-style: none;
+        text-align: center;
+        background-color: darkred;
+        padding: 10px;
+        transition: 1s;
+    }
+    header .menu #menuicon:hover .menubar{
+        left: -205px;
+    }
+    header .menu #menuicon .menubar li:hover a{
+        color: darkred;
+        
+    }
+    header .menu #menuicon .menubar li{
+        font-size: 15px;
+        font-weight: bold;
+        margin: 20px 0;
+        color: whitesmoke;
+        width: 100%;
+        background-color: lightcoral;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    header .menu #menuicon .menubar li a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    header .menu .menu1{
+        display: none !important; 
+    }
+    header .menu .mark #person{
+        display: none;
+    }
+    header .menu .mark li{
+        color: whitesmoke;
+        margin: 0 5px;
+    }
+    main aside{
+        width: 100%;
+    }
+    main article{
+        width: 100%;
+        margin-top: 100px;
+    }
+    main article h3{
+        color:darkred;
+        font-size: 15px;
+        text-align: center;
+    }
+    main article .kharid{
+        color: whitesmoke;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    main article .kharid li{
+        width: 150px;
+        height:50px;
+        margin: 10px 10px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 5px;
+    }
+    main article .kharid li:nth-child(1){
+        background-color: red;
+    }
+    main article .kharid li:nth-child(2){
+        background-color: darkblue;
+    }
+    main article .kharid li:nth-child(3){
+        background-color: purple;
+    }
+    main article .kharid li:nth-child(4){
+        background-color: saddlebrown;
+    }
+    main article .kharid li:nth-child(5){
+        background-color: blueviolet;
+    }
+    main article .kharid li:nth-child(6){
+        background-color: darkgreen;
+    }
+    
+    main article .porforoosh .mahsool{
+        width: 230px;
+        height: 80px;
+    }
+}
+@media only screen and (max-width:600px){
+    header .vorood_search .vorood{
+        display: none;
+    }
+    header .menu #menuicon{
+        color: whitesmoke;
+        position : relative ;
+        transition: 0.5s;
+    }
+    header .menu #menuicon:hover{
+        color: darkred;
+    }
+    header .menu #menuicon .menubar{
+        position: absolute;
+        top : 47px;
+        left:40px;
+        transform: translateX(40px);
+        border-radius: 10px;
+        width: 200px;
+        color: black;
+        list-style: none;
+        text-align: center;
+        background-color: darkred;
+        padding: 10px;
+        transition: 1s;
+    }
+    header .menu #menuicon:hover .menubar{
+        left: -205px;
+    }
+    header .menu #menuicon .menubar li:hover a{
+        color: darkred;   
+    }
+    header .menu #menuicon .menubar li{
+        font-size: 15px;
+        font-weight: bold;
+        margin: 20px 0;
+        color: whitesmoke;
+        width: 100%;
+        background-color: lightcoral;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    header .menu #menuicon .menubar li a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    header .menu .menu1{
+        display: none ; 
+    }
+    header .menu .mark{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+    }
+    header .menu .mark li{
+        color: whitesmoke;
+        margin: 0 5px;
+    }
+    main article{
+        margin-top: 100px;
+        width: 100%;
+    }
+    main article h3{
+        color:darkred;
+        font-size: 15px;
+        text-align: center;
+    }
+    main article .kharid{
+        color: whitesmoke;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    main article .kharid li{
+        width: 150px;
+        height:50px;
+        margin: 10px 10px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 5px;
+    }
+    main article .kharid li:nth-child(1){
+        background-color: red;
+    }
+    main article .kharid li:nth-child(2){
+        background-color: darkblue;
+    }
+    main article .kharid li:nth-child(3){
+        background-color: purple;
+    }
+    main article .kharid li:nth-child(4){
+        background-color: saddlebrown;
+    }
+    main article .kharid li:nth-child(5){
+        background-color: blueviolet;
+    }
+    main article .kharid li:nth-child(6){
+        background-color: darkgreen;
+    }
+    main article .porforoosh .mahsool{
+        width: 230px;
+        height: 80px;
+    }
+}
